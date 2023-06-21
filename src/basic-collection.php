@@ -2,7 +2,7 @@
 
 // Cross-Site Scripting (XSS)
 $name = $_GET['name'];
-echo('Hello ' . $name);
+echo'Hello ' . $name;
 
 
 // SQL Injection
